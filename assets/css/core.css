@@ -1,0 +1,37 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+nav.top {
+  height: 80px;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.lead-sm {
+  margin-bottom: 17px !important;
+  font-size: 13.6px !important;
+  font-weight: 255 !important;
+  line-height: 1.275 !important;
+}
+
+@media (min-width: 768px) {
+  .lead-sm {
+    font-size: 17.85px !important;
+  }
+}
+
+footer.bottom {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #e5e5e5;
+}
