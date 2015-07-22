@@ -11,6 +11,12 @@ angular
 			.when("/about/me", {
 				templateUrl : "me.html"
 			})
+			.when("/about/reads", {
+				redirectTo : "/about/me/reads"
+			})
+			.when("/about/me/reads", {
+				templateUrl : "me.html"
+			})
 			.otherwise({
 				redirectTo : "/"
 			});
