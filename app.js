@@ -15,7 +15,7 @@ angular
 				redirectTo : "/about/me/reads"
 			})
 			.when("/about/me/reads", {
-				templateUrl : "me.html"
+				templateUrl : "reads.html"
 			})
 			.otherwise({
 				redirectTo : "/"
