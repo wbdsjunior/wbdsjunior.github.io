@@ -1,20 +1,20 @@
 angular
   .module("App", ["ngRoute"])
-  .config(function($routeProvider) {
+  .config(function ($routeProvider) {
     $routeProvider
       .when("/", {
-        templateUrl : "home.html"
+        templateUrl: "home.html"
       })
       .when("/me", {
-        templateUrl : "me.html"
+        templateUrl: "me.html"
       })
       .when("/reads", {
-        redirectTo : "/me/reads"
+        redirectTo: "/me/reads"
       })
       .when("/me/reads", {
-        templateUrl : "reads.html"
+        templateUrl: "reads.html"
       })
       .otherwise({
-        redirectTo : "/"
+        redirectTo: "/"
       });
   });

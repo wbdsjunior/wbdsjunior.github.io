@@ -1,7 +1,7 @@
 $(document)
-  .ready(function() {
+  .ready(function () {
     $("nav.top ul li")
-      .click(function(){
+      .click(function () {
         $(this)
           .addClass("active")
           .siblings()
